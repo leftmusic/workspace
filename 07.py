@@ -2,6 +2,6 @@ a = (3,2,2,1)#(87,39,35,1,99,10,54,1,46,24,74,62,49,13,2,80,24,58,8,14,83,23,97,
 s = 0
 for i in range(len(a)):
     for j in range(i+1,len(a)):
-        if i>j and a[i]>a[j]:
+        if a[i]>a[j]:
             s+=1
 print(s)
